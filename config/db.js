@@ -1,8 +1,7 @@
 /** @format */
 
 const mongoose = require("mongoose");
-const db =
-	"mongodb+srv://admin:i3vxZcDb6u3MeGCq@cluster0.4oavr.mongodb.net/contactCollection?retryWrites=true&w=majority";
+const db ={ENTER MongoDB URL}
 
 const connectDB = async () => {
 	try {
